@@ -10,6 +10,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  name: latest-build.zip  # Ensures the same artifact name every time
-  discard-paths: yes
   base-directory: build  # Directory with output files (e.g., React app)
